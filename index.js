@@ -4,18 +4,18 @@ const toHex = require('to-hex');
 
 // TODO : NO 1
 
-let encrypted = xorCrypt('Hello World');
+let xor_cipher = xorCrypt('Hello World');
 
-console.log(`Soal no 1 : ${encrypted}`);
+console.log(`Soal no 1 : ${xor_cipher}`);
 
 // TODO : NO 2
 
-let encodedStr = strEncode('Hello World', 'base64');
+let base64_encode = strEncode('Hello World', 'base64');
 
-console.log(`Soal no 2 : ${encodedStr}`);
+console.log(`Soal no 2 : ${base64_encode}`);
 
 // TODO : NO 3
 
-let transformHex = toHex('abc');
+let transform_hex = toHex('abc');
 
-console.log(`Soal no 3 : ${transformHex}`);
+console.log(`Soal no 3 : ${transform_hex}`);
